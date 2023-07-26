@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //Declaration of Array (Method I)
+        // var myArr=[];
+        // myArr[0]="Rathish";
+        // myArr[1]=123456;
+        // myArr[2]="B.Tech";
+        // console.log(myArr,"Array First method declaration")
+
+        //Declaration of Array (Method II)
+        // var myArr2=["Rathish","B.sc","puducherry"];
+        // console.log(myArr2,"Array Second method declaration")
+        // console.log(myArr2[2],"Array Second method declaration")
+
+        //Array Methods
+
+        //To find the length
+        var myArr2=["Rathish","B.sc","puducherry"];
+        var Arr=myArr2.length;
+        console.log(Arr)
+
+        //toString method
+        var myArr3=["Rathish","B.sc","puducherry"];
+        var Arr1=myArr3.toString();
+        console.log(Arr1)
+
+        //Pop method (Remove the last index of an array)
+        var myArr4=["Rathish","B.sc","puducherry"];
+        console.log(myArr4,"Before pop method")
+        var Arr2=myArr4.pop();
+        console.log(Arr2,"After pop method")
+
+        //push (Add items at the last index of an array)
+        var myArr5=["Rathish","B.sc","puducherry"];
+        var Arr3=myArr5.push("Tamilnadu")
+        console.log(myArr5)
+
+        //Shift (Remove First index of array)
+        var myArr6=["Rathish","B.sc","puducherry"];
+        var Arr4=myArr6.shift()
+        console.log(myArr6)
+
+        //Unshift (Add new element in the first array)
+        var myArr7=["Rathish","B.sc","puducherry"];
+        var Arr5=myArr7.unshift("Priya")
+        console.log(myArr7)
+
+         //Splice (Add new element in the first array)
+         var myArr8=["Rathish","B.sc","puducherry"];
+        var Arr6=myArr8.splice(2)
+        console.log(myArr8)
+
+         //Slice (It returns the selected aarray as a new array)
+         var myArr9=["Rathish","B.sc","puducherry","puducherry","puducherry","puducherry"];
+        var Arr7=myArr9.slice(1,4)
+        console.log(Arr7)
+
+        //Join (Add new element in the first array)
+        var myArr10=["Rathish","B.sc","puducherry"];
+        var Arr8=myArr10.join(" and ");
+        console.log(Arr8)
+
+        //Flat
+        var myVal=[[1,2],[3,4],[7,8],[13,55]]
+        var Res=myVal.flat()
+        console.log(Res)
+
+        //concat
+        var myArr11=["aaa","bbb","ccc"]
+        var myArr12=["ddd","eee","fff"]
+        var Res1=myArr11.concat(myArr12)
+        console.log(Res1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

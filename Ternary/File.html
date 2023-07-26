@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Odd or Even
+        var a=15;
+        var res=a%2==0?"Even":"Odd";
+        console.log(res)
+
+        // Find the maximum of two numbers.
+        var number1=prompt("enter the first number")
+        var number2=prompt("enter the second number");
+        var output=number1>number2?"Number 1 is Maximum":"Number 2 is Maximum";
+        console.log(output)
+
+        // Check if a year is a leap year.
+        var year=prompt("Enter the year")
+        var leap=year%4==0?"Leap year":"Not leap year"
+        console.log(leap)
+
+        //Check if a number is positive, negative, or zero.
+        var x=3;
+        var neg=(x>=0)?(x==0?"Zero":"Positive"):"Negative";
+        console.log(neg)
+
+        // Eligible for vote
+        var age=17;
+        var vote=age>=18?"Eligible for vote":"Not elgible for vote"
+        console.log(vote)
+
+        //Find the absolute value of a number.
+        var abs=-123;
+        var int=(abs<0)?(abs*-1):abs;
+        console.log(int)
+
+        //Check if a number is a multiple of both 3 and 5.
+
+        var d=15;
+        var a1=(d%3==0 && d%5==0)?"Number is divisible both 3 and 5":"NA";
+        // var a1=(d%3==0)?(d%5==0?"Number is divisible both 3 and 5"):"NA";
+        console.log(a1)
+
+        // Check if a given year is a century year (ends with 00)
+
+        var year1=1980;
+        var cen=(year1%100==0)?"Year is correct":"year is incorrect"
+        console.log(cen)
+
+    </script>
+</body>
+</html>

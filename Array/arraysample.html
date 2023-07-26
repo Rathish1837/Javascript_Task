@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+// array 
+const arr = ["aaaa",3453654564,"pondy",45];
+        console.log(arr,"myarray")
+        const name = arr[0];
+        const age = arr[3];
+        console.log(age,"name")
+
+        const myArray = [];
+        myArray[0] = "RegNO12";
+        myArray[1] = "vidhya";
+        myArray[2] = "753642783821";
+        console.log(myArray,"array");
+        console.log(myArray[2])
+
+        // array methods 
+
+        var arrayData = ["CSE" , "IT" , "ECE" , "EEE"];
+
+        // find array length
+        let arrayLen = arrayData.length;
+        console.log(arrayLen,"length of arrayData")
+
+        //toString()
+        var arrayStr = arrayData.toString();
+        console.log(arrayStr,"toString");
+
+       // pop()
+       var popedValue = arrayData.pop();
+       console.log(popedValue,"pop")
+
+       //push()
+       var pushValue = arrayData.push("biomediacl");
+       console.log(pushValue);
+       console.log(arrayData,"push");
+
+       // shift()
+       var shiftValue = arrayData.shift();
+       console.log(shiftValue);
+       console.log(arrayData,"shift")
+
+       // unshift()
+       var unshiftData = arrayData.unshift("AI");
+       console.log(unshiftData);
+       console.log(arrayData,"unshift")
+
+       //delete array value
+       var myValue = arrayData[0];
+       console.log(myValue);
+       var arrayElementDelete = delete arrayData[0];
+       console.log(arrayElementDelete,"deleted") // it returns true or false
+       console.log(arrayData[0])  // it returns undefined
+       console.log(arrayData,"view all array elements");
+
+       // concat 2 arrays
+
+       var myArr1 = ["idly","dosa","briyani"];
+       var myArr2 = ["parota","vada"];
+
+       var addData = myArr2.concat('pongal');
+       console.log(myArr2,"myArray2")
+
+       var concatedData = myArr1.concat(myArr2);
+       console.log(concatedData,"concatedData");
+
+       // flat()
+
+       var arraflat = [[1,3],[34,435],[54,324]];
+       console.log(arraflat.flat()) // [1, 3, 34, 435, 54, 324]
+
+    </script>
+    
+</body>
+</html>
+
+

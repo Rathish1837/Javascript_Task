@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        //Object creation Method I (Keyword)
+        // var myObj={
+        //     name:"Rathish",
+        //     Mobile:987654321,
+        //     Degree:"B.Tech",
+        //     email:"asd@gmail.com"
+        // }
+        // console.log(myObj, "Object");
+
+        //Object creation Method II
+        // var myObj1={};
+        // myObj1.name="Rathish";
+        // myObj1.Degree="B.Tech";
+        // myObj1.Mobile=987654321;
+        // myObj1.email="asd@gmail.com"
+
+        // console.log(myObj1, "Object");
+
+        //Object creation Method III (new keyword)
+
+        // var myObj3=new Object;
+        // myObj3.name="Rathish";
+        // myObj3.Degree="B.Tech";
+        // myObj3.Mobile=987654321;
+        // myObj3.email="asd@gmail.com"
+
+        // console.log(myObj3, "Object");
+
+        //Object Accessing property (Dot Accessing property)
+
+        // var myObj={
+        //     name:"Rathish",
+        //     Mobile:987654321,
+        //     Degree:"B.Tech",
+        //     email:"asd@gmail.com"
+        // }
+        // console.log(myObj.name, myObj.email);
+
+        //Object Accessing property (Square Accessing property)
+
+        // var myObj5={
+        //     name:"Rathish",
+        //     Mobile:987654321,
+        //     Degree:"B.Tech",
+        //     email:"asd@gmail.com"
+        // }
+        // console.log(myObj5['name'], myObj5['Mobile']);
+
+        //Object Accessing property (Object Destructuring property)
+
+        // var myObj6={
+        //     name:"Rathish",
+        //     mobile:987654321,
+        //     degree:"B.Tech",
+        //     email:"asd@gmail.com"
+        // }
+        // var{name,mobile,degree,email}=myObj6;
+
+        // console.log(name,degree);
+
+
+        //Example
+            var employee=[{
+            name:"Rathish",
+            Mobile:987654321,
+            Degree:"B.Tech",
+            email:"asd@gmail.com",
+            EmpID:1234,
+            location:"Chennai"
+        },
+        {
+            name:"Rathi",
+            Mobile:987654321,
+            Degree:"B.E",
+            email:"uip@gmail.com",
+            EmpID:1235,
+            location:"puducherry"
+        },
+        {
+            name:"Athi",
+            Mobile:987654321,
+            Degree:"B.Sc",
+            email:"jkl@gmail.com",
+            EmpID:1236,
+            location:"Madurai"
+        },
+        {
+            name:"Ram",
+            Mobile:987654321,
+            Degree:"B.Tech",
+            email:"fgg@gmail.com",
+            EmpID:1230,
+            location:"Chennai"
+        },
+        {
+            name:"Sathish",
+            Mobile:987654321,
+            Degree:"B.Tech",
+            email:"vbnn@gmail.com",
+            EmpID:1239,
+            location:"Puducherry"
+        }
+    
+    ]
+        console.log(employee[1].name, employee[0].Mobile, employee[3].Degree,employee[3].location);
+        console.log(employee[3].name, employee[4].Mobile, employee[2].Degree,employee[2].location);
+        console.log(employee[0].name, employee[2].email, employee[4].Degree, employee[4].EmpID);
+</script>
+</body>
+</html>
