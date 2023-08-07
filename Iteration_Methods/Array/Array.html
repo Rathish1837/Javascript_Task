@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+       //for -of
+        var myArray=["aaa","bbb","ccc","ddd","eee"];
+        for (const data of myArray) {
+            console.log(data)
+        }
+
+        // for - in
+
+        var variableData = 'code';
+        for(let data1 in variableData){
+            console.log(data1,variableData[data1])
+            // console.log(variableData[data1])
+            // console.log(data1)
+        }
+
+        //for-each
+
+        myArray.forEach(function(data2){
+            console.log(data2)
+        });
+
+        //reverse
+        console.log(myArray.reverse())
+
+        //Map concept
+        var Stud=[{name:"aaa",degree:"bsc",mobile:123},{name:"bbb",degree:"bcom",mobile:456},{name:"ccc",degree:"ba",mobile:789}];
+        console.log(Stud);
+        var result=Stud.map(
+            function(Data){
+                return [Data.name,Data.degree].join(" and ");
+            }
+        );
+        console.log(result)
+
+
+
+
+
+    </script>
+</body>
+</html>
