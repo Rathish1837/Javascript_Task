@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var myArray=[
+    {name:"Rathish",email:"rathish.victory@gmail.com",mobile:987654 , age:1},
+    {name:"Rathish1",email:"rathish1.victory@gmail.com",mobile:987654, age:12},
+    {name:"Rathish2",email:"rathish2.victory@gmail.com",mobile:987654, age:14}
+];
+
+console.log(myArray,"array")
+
+const result = myArray.filter(storingVari => storingVari.age >1);
+console.log(result,"res")
+
+
+// object iteration 
+var myObj =  {name:"Rathish",email:"rathish.victory@gmail.com",mobile:987654 , age:1};
+// Object.entries()
+// Object.keys()
+// Object.values()
+console.log(Object.entries(myObj),"entries");
+console.log(Object.keys(myObj),"keys");
+console.log(Object.values(myObj),"values");
+
+//Filter method
+
+var myDetails=[
+    {Name:"Rathish",Degree:"BSC",Location:"Chennai",Pincode:600012},
+    {Name:"Sathish",Degree:"BED",Location:"Madurai",Pincode:656012},
+    {Name:"Raj",Degree:"BCOM",Location:"Kovilpatti",Pincode:620012},
+    {Name:"Raja",Degree:"BA",Location:"Puducherry",Pincode:605010}
+];
+console.log(myDetails);
+const myNCE=myDetails.filter(StoreObj=>StoreObj.Pincode>650000);
+console.log(myNCE);
+
+
+
+
+    </script>
+</body>
+</html>
