@@ -71,12 +71,60 @@
         // var functionArrow = a => console.log(a);
         // functionArrow(34)
 
-        //IIFE
+        //IIFE ()
 
-        (function myFunc(a,b){
-            var c=a*b;
-            console.log(c);
-        })(3,2)
-    </script>
+        // (function myFunc(a,b){
+        //     var c=a*b;
+        //     console.log(c);
+        // })(3,2);
+
+        // // reduce method
+        // const numbers = [1, 2, 3, 4, 5, 6];
+
+        //     function sum_reducer(accumulator, currentValue) {
+        //         return accumulator + currentValue;
+        //     }
+
+        //     let sum = numbers.reduce(sum_reducer);
+        //     console.log(sum);
+
+        // function myFun(a,b){
+        //     var c=a+b;
+        // }
+        // myFun(12,12);
+        // console.log(c);
+
+        //Callback Function
+
+        function add(a,b,callback){
+            var c=a+b;
+            callback(c);
+
+        }function display(value){
+            console.log(value,"ghj")
+
+        }add(2,102,display)
+
+
+        //three value
+
+        function add1(a,b,cb){
+            var c=a+b; cb(c);
+        }
+        function mysub(x,y,cb1){
+            var z=x-y; cb1(z);
+
+        }
+        function mydata2(values){
+            console.log(values,"Total")
+
+        }
+        add1(10,15,mydata2);
+        mysub(90,29,mydata2);
+
+
+
+
+</script>
 </body>
 </html>
